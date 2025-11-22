@@ -28,7 +28,10 @@ app.patch("/notes/:index", (req, res) => {
     res.json(notes)
 })
 
+app.get("/notes", (req, res) => {
+    res.json(notes)
 
+})
 
 app.listen(3000, () => {
     console.log("Server is running");
