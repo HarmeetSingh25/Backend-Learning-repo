@@ -18,6 +18,16 @@ app.delete("/notes/:index", (req, res) => {
     res.json(notes)
 })
 
+app.patch("/notes/:index", (req, res) => {
+    const index = req.params.index
+    if (!notes[index]) {
+        return res.json("Invalid number")
+    }
+    const { tittle } = req.body
+    notes[index].tittle = tittle
+    res.json(notes)
+})
+
 
 
 app.listen(3000, () => {
