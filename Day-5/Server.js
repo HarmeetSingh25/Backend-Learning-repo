@@ -13,6 +13,7 @@ app.get("/", (req,res) => {
     console.log("Welcome to the home page ");
     
 })
+ 
 
 app.post("/notes",(req,res)=>{
 const note=req.body
