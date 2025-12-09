@@ -3,6 +3,7 @@ const app = express()
 
 app.use(express.json())
 
+
 const connecttodb = require("./src/db/db.js")
 connecttodb()
 
