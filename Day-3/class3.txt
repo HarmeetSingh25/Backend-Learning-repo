@@ -1,9 +1,36 @@
 Express is node js application 
 server create with this type , app= express()
-create workspace in postman first go to workspace button it have on top left side after that show the button of create workspace after click on it you see new page in that page just press next do not change the blank workspace option after that have have to fill the name of workspace after that press the create button now workspace is created 
 
 why use postman ??
-post help to develop api
+postman help to develop api
 
 postman is use for api development  
-npx nodemon filname.js
+
+create workspace in postman first go to workspace button it have on top left side after that show the button of create workspace after click on it you see new page in that page just press next do not change the blank workspace option after that have have to fill the name of workspace after that press the create button now workspace is created 
+
+what is rest api ?
+in rest api have rules and guideline  for follow it 
+first one is method , four type of methods  get ,post ,put ,delete
+now what is method in api  ??
+if we need to get data from server so use get 
+
+if we need to send data to server so use post 
+now the question is how to use 
+we have three way for send data from frontened to backend 
+first one is req.body 
+req.body is used for send large , senstive or complex data like password to backend 
+req.body mainly use in post put and patch method 
+
+Now we can send data from postman/frontened to backend 
+first go in postman after that goes in workspace in that write the host name and port after that go in body option in that body select raw in that write data those you want to send in backend. in object format with json format 
+
+second one is  req.query
+
+third one is req.params
+
+if we need to update existing data so use patch method 
+if we want delete  existing data from server so use DELETE method
+
+second one is what is api how it write
+
+npx nodemon filname.js 
