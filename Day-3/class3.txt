@@ -1,0 +1,9 @@
+Express is node js application 
+server create with this type , app= express()
+create workspace in postman first go to workspace button it have on top left side after that show the button of create workspace after click on it you see new page in that page just press next do not change the blank workspace option after that have have to fill the name of workspace after that press the create button now workspace is created 
+
+why use postman ??
+post help to develop api
+
+postman is use for api development  
+npx nodemon filname.js
